@@ -180,3 +180,39 @@ nav{
 }
 
 /* play end */
+
+
+/* catagory start */
+
+
+.catagory-container{
+    max-width: 1400px;
+    padding-top: 50px;
+    min-height: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 5px;
+    align-items: center;
+    margin: 25px 140px;
+}
+
+.catagory-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.cata-img{
+    height:40px;
+    width: 40px;
+}
+
+.catagory-type:hover{
+    border: 1px solid #F948B2 ;
+    border-radius: 30px;
+    color:#F948B2;
+}
+
+
+
+/* catagory end */
