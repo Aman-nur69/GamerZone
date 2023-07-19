@@ -212,7 +212,17 @@ nav{
     border-radius: 30px;
     color:#F948B2;
 }
-
-
-
 /* catagory end */
+
+
+/* footer start */
+
+.foot-container{
+    background-color: #0B0223;
+    min-height: 300px;
+    max-width: 1700px;
+    margin: 0 auto;
+}
+.foot-logo{
+    text-align: center;
+}
