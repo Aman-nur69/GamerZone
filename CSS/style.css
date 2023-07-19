@@ -140,3 +140,43 @@ nav{
     
 }
 /* online games end */
+/* play start */
+.play-instant-section{
+    max-width: 1400px;
+    min-height: 200px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.play-text{
+    width: 50%;
+    text-align: center;
+}
+.play-img1{
+    width: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+.play-img1{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.play-img2{
+    width: 15%;
+    height: 32%;
+    position: absolute;
+    bottom:-80%;
+    left: 53%;
+}
+.play-heading{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* play end */
