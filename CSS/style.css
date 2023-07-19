@@ -89,8 +89,9 @@ nav{
     font-size: 50px;
 }
 .banner-text p{
-    font-size: 10px;
+    font-size: 14px;
     margin-top: -10px;
+    color: #534C64;
 }
 .banner-btn{
     background-color:#F948B2 ;
@@ -113,16 +114,29 @@ nav{
     min-height: 50px;
     text-align: center;
     margin: 0 auto;
+    
 }
 
 .online-games-img{
-    width: 50%;
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 .online-games-img img{
-    height: 250px;
+    height: 200px;
+    
+}
+.online-games-img p{
+    font-size: 12px;
+}
+.funny-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 /* online games end */
